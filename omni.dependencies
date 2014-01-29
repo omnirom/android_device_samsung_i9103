@@ -8,7 +8,7 @@
         "target_path": "packages/apps/SamsungServiceMode"
     },
     {
-        "repository": "omnirom/android_kernel_samsung_n1",
+        "repository": "android_kernel_samsung_n1",
         "target_path": "kernel/samsung/n1"
     }
 ]
