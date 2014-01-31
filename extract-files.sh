@@ -38,15 +38,13 @@ adb pull /system/lib/hw/sensors.n1.so $DEVICEBASE/system/lib/hw/
 
 # EGL
 mkdir -p $DEVICEBASE/system/lib/egl/
-adb pull /system/lib/egl/libEGL_perfhud.so $DEVICEBASE/system/lib/egl/
 adb pull /system/lib/egl/libEGL_tegra.so $DEVICEBASE/system/lib/egl/
-adb pull /system/lib/egl/libGLESv1_CM_perfhud.so $DEVICEBASE/system/lib/egl/
 adb pull /system/lib/egl/libGLESv1_CM_tegra.so $DEVICEBASE/system/lib/egl/
-adb pull /system/lib/egl/libGLESv2_perfhud.so $DEVICEBASE/system/lib/egl/
 adb pull /system/lib/egl/libGLESv2_tegra.so $DEVICEBASE/system/lib/egl/
 
 # RIL files
 adb pull /system/lib/libsec-ril.so $DEVICEBASE/system/lib/
+adb pull /system/lib/libsecril-client.so $DEVICEBASE/system/lib/
 
 # Sensors
 adb pull /system/lib/libakm.so $DEVICEBASE/system/lib/
@@ -168,16 +166,14 @@ PRODUCT_COPY_FILES += \\
 
 # EGL
 PRODUCT_COPY_FILES += \\
-    vendor/__VENDOR__/__DEVICE__/proprietary/system/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \\
     vendor/__VENDOR__/__DEVICE__/proprietary/system/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \\
-    vendor/__VENDOR__/__DEVICE__/proprietary/system/lib/egl/libGLESv1_CM_perfhud.so:system/lib/egl/libGLESv1_CM_perfhud.so \\
     vendor/__VENDOR__/__DEVICE__/proprietary/system/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \\
-    vendor/__VENDOR__/__DEVICE__/proprietary/system/lib/egl/libGLESv2_perfhud.so:system/lib/egl/libGLESv2_perfhud.so \\
     vendor/__VENDOR__/__DEVICE__/proprietary/system/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so
 
 # RIL files
 PRODUCT_COPY_FILES += \\
-    vendor/__VENDOR__/__DEVICE__/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so
+    vendor/__VENDOR__/__DEVICE__/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so \\
+    vendor/__VENDOR__/__DEVICE__/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so
 
 # Sensors
 PRODUCT_COPY_FILES += \\
