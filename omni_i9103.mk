@@ -1,3 +1,4 @@
+#
 # Copyright (C) 2009 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -11,29 +12,31 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-#
-# This file is the build configuration for a full Android
-# build for crespo hardware. This cleanly combines a set of
-# device-specific aspects (drivers) with a device-agnostic
-# product configuration (apps).
 #
 
-# Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
-# This is where we'd set a backup provider if we had one
-$(call inherit-product, device/samsung/i9103/i9103.mk)
-
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit Omni GSM telephony parts
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
+# Inherit some common Omni stuff.
+$(call inherit-product, vendor/omni/config/common.mk)
+
+# Inherit device configuration
+$(call inherit-product, device/samsung/i9103/full_i9103.mk)
+
+# Release name
+PRODUCT_RELEASE_NAME := i9103
+
 # Discard inherited values and use our own instead.
+PRODUCT_MODEL := GT-I9103
+PRODUCT_BRAND := samsung
 PRODUCT_NAME := omni_i9103
 PRODUCT_DEVICE := i9103
-PRODUCT_BRAND := Samsung
-PRODUCT_MANUFACTURER := Samsung
-PRODUCT_MODEL := GT-I9103
+PRODUCT_MANUFACTURER := samsung
 
 # Set build fingerprint / ID / Product Name ect.
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-I9103 TARGET_DEVICE=GT-I9103
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=GT-I9103 \
+    PRODUCT_DEVICE=GT-I9103 \
+    TARGET_DEVICE=GT-I9103 \
+    PRIVATE_BUILD_DESC="GT-I9103-user 4.0.4 IMM76D XWLP8 release-keys" \
+    BUILD_FINGERPRINT="samsung/GT-I9103/GT-I9103:4.0.4/IMM76D/XWLP8:user/release-keys"
