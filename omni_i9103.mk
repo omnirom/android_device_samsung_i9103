@@ -17,6 +17,9 @@
 # Inherit Omni GSM telephony parts
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
+# Low-FPS Bootanimation
+USE_LOWFPS_BOOTANI := true
+
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
