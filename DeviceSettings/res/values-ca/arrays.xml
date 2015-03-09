@@ -16,54 +16,54 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="mdnie_scenario_entries">
-    <item>CyanogenMod (默认)</item>
-    <item>界面</item>
-    <item>影片</item>
-    <item>影片 (温)</item>
-    <item>影片 (冷)</item>
-    <item>相机</item>
-    <item>导航</item>
-    <item>图库</item>
+    <item>CyanogenMod (per defecte)</item>
+    <item>IU</item>
+    <item>Vídeo</item>
+    <item>Vídeo càlid</item>
+    <item>Vídeo fred</item>
+    <item>Càmera</item>
+    <item>Navegació</item>
+    <item>Galeria</item>
     <item>VT</item>
   </string-array>
   <string-array name="mdnie_mode_entries">
-    <item>动态</item>
-    <item>标准 (默认)</item>
-    <item>自然</item>
-    <item>电影</item>
+    <item>Dinàmic</item>
+    <item>Estàndard (per defecte)</item>
+    <item>Natural</item>
+    <item>Pel·lícula</item>
   </string-array>
   <string-array name="mdnie_negative_entries">
-    <item>正常</item>
-    <item>反色</item>
+    <item>Normal</item>
+    <item>Invertit</item>
   </string-array>
   <string-array name="mdnie_outdoor_entries">
-    <item>禁用 (默认)</item>
-    <item>启用</item>
+    <item>Desactivat (per defecte)</item>
+    <item>Activat</item>
   </string-array>
   <string-array name="panel_gamma_entries">
-    <item>2.2 (默认)</item>
-    <item>1.9</item>
+    <item>2,2 (per defecte)</item>
+    <item>1,9</item>
   </string-array>
   <string-array name="touchscreen_sensitivity_entries">
     <item>10</item>
     <item>20</item>
     <item>30</item>
-    <item>50 (默认)</item>
+    <item>50 (per defecte)</item>
     <item>70</item>
     <item>100</item>
   </string-array>
   <string-array name="hspa_entries">
-    <item>仅使用 UMTS</item>
-    <item>仅使用 HSDPA</item>
-    <item>使用 HSDPA + HSUPA</item>
+    <item>Només UMTS</item>
+    <item>Només HSDPA</item>
+    <item>HSDPA + HSUPA</item>
   </string-array>
   <string-array name="touchkey_timeout_entries">
-    <item>从不</item>
-    <item>1 秒</item>
-    <item>2 秒</item>
-    <item>3 秒 (默认)</item>
-    <item>4 秒</item>
-    <item>5 秒</item>
-    <item>6 秒</item>
+    <item>Mai</item>
+    <item>1 segon</item>
+    <item>2 segons</item>
+    <item>3 segons (per defecte)</item>
+    <item>4 segons</item>
+    <item>5 segons</item>
+    <item>6 segons</item>
   </string-array>
 </resources>
