@@ -16,54 +16,54 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="mdnie_scenario_entries">
-    <item>OmniROM (По умолч.)</item>
-    <item>Видео</item>
-    <item>Видео (тёпл.)</item>
-    <item>Видео (хол.)</item>
-    <item>Камера</item>
-    <item>Навигация</item>
-    <item>Галерея</item>
-    <item>VT</item>
+    <item>CyanogenMod (Standar)</item>
+    <item>UI</item>
+    <item>Video</item>
+    <item>Video hangat</item>
+    <item>Video Dingin</item>
+    <item>Kamera</item>
+    <item>Navigasi</item>
+    <item>Galeri</item>
     <item>VT</item>
   </string-array>
   <string-array name="mdnie_mode_entries">
-    <item>Динамический</item>
-    <item>Стандартный (По умолч.)</item>
-    <item>Натуральный</item>
-    <item>Кино</item>
+    <item>Dinamis</item>
+    <item>Standar (Default)</item>
+    <item>Natural</item>
+    <item>Film</item>
   </string-array>
   <string-array name="mdnie_negative_entries">
-    <item>Выкл. (По умолчанию)</item>
-    <item>Вкл.</item>
+    <item>Normal</item>
+    <item>Terbalik</item>
   </string-array>
   <string-array name="mdnie_outdoor_entries">
-    <item>Выкл. (По умолчанию)</item>
-    <item>Вкл.</item>
+    <item>Mati (Standar)</item>
+    <item>Hidup</item>
   </string-array>
   <string-array name="panel_gamma_entries">
-    <item>2.2 (По умолчанию)</item>
+    <item>2.2 (Standar)</item>
     <item>1.9</item>
   </string-array>
   <string-array name="touchscreen_sensitivity_entries">
     <item>10</item>
     <item>20</item>
     <item>30</item>
-    <item>50 (По умолчанию)</item>
+    <item>50 (Standar)</item>
     <item>70</item>
     <item>100</item>
   </string-array>
   <string-array name="hspa_entries">
-    <item>Только UMTS</item>
-    <item>Только HSDPA</item>
+    <item>Hanya UMTS</item>
+    <item>Hanya HSDPA</item>
     <item>HSDPA + HSUPA</item>
   </string-array>
   <string-array name="touchkey_timeout_entries">
-    <item>Никогда</item>
-    <item>1 секунда</item>
-    <item>2 секунды</item>
-    <item>3 секунды (По умолчанию)</item>
-    <item>4 секунды</item>
-    <item>5 секунд</item>
-    <item>6 секунд</item>
+    <item>Tidak pernah</item>
+    <item>1 detik</item>
+    <item>2 detik</item>
+    <item>3 detik (Standar)</item>
+    <item>4 detik</item>
+    <item>5 detik</item>
+    <item>6 detik</item>
   </string-array>
 </resources>
